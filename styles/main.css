@@ -1,0 +1,138 @@
+img
+{
+  width: 200px;
+}
+nav
+{
+  
+  position: absolute;
+ 
+}
+
+#nav1
+{
+  position: fixed;
+
+  border:solid blue 1px;
+  background-color:rgba(100,100,255,.95);
+  text-align:center;
+  height:80px;
+}
+
+footer
+{
+  background-color: #8585ad;
+}
+
+.sec
+{
+  border-radius: 25px;
+  background-color:rgba(255, 255, 255,.95); 
+  width: 1000px;
+  height: 1000px;
+  padding:25px;
+  position:relative; 
+  top:-60px; 
+  left:35px; 
+  z-index:3s;
+  
+  box-shadow: 20px 10px 15px rgba(0, 0, 0,.5);
+}
+
+.sec1
+{
+  border-radius: 25px;
+  background-color:rgba(255, 255, 255,.95); 
+  width: 1000px;
+  height: 500px;
+  padding:25px;
+  position:relative; 
+  top:-60px; 
+  left:35px; 
+  z-index:3s;
+  box-shadow: 20px 10px 15px rgba(0, 0, 0,.5);
+}
+
+.empty
+{
+  width: 300px;
+  height: 125px;
+
+}
+
+.box
+{
+  margin: 30px;
+  z-index:3s;
+  position:relative; 
+  padding:25px;
+  border-radius: 25px;
+  background-color:rgba(255, 255, 255,.95); 
+  box-shadow: 20px 10px 15px rgba(0, 0, 0,.5);
+}
+.clouds
+{
+ width: 100%;
+ height:200px;
+ position:absolute;
+ background:transparent url(../img/front_cloud.png) 0 0 no-repeat;
+}
+
+.alien
+{
+  width: 50%;
+ height:200px;
+ position:absolute;
+ background:transparent url(../img/ship.png) 0 0 no-repeat;
+
+ index-z: 1;
+ top: 240px;
+  /* animation syntax shorthand order: name duration timing-function delay iteration-count direction fill-mode */
+
+  -webkit-animation: drift 20s linear infinite;
+}
+
+.satelite
+{
+  width: 100%;
+ height:800px;
+ position:absolute;
+ background:transparent url(../img/satellite.png) 0 0 no-repeat;
+
+ index-z: 1;
+ top: 1100px;
+  /* animation syntax shorthand order: name duration timing-function delay iteration-count direction fill-mode */
+
+  -webkit-animation: drift 30s linear infinite;
+}
+
+.fcloud1
+{
+  index-z: 1;
+  top:3000px;
+  /* animation syntax shorthand order: name duration timing-function delay iteration-count direction fill-mode */
+
+  -webkit-animation: drift 20s linear infinite;
+}
+
+.fcloud2
+{
+  index-z: 2;
+  top:2760px;
+ 
+  /* animation syntax shorthand order: name duration timing-function delay iteration-count direction fill-mode */
+
+  -webkit-animation: drift 25s linear 2s infinite backwards;
+}
+
+body
+{
+  background: url(../img/skybg2.png);
+}
+
+
+@-webkit-keyframes drift
+    {
+        from{-webkit-transform:translateX(-255px);}
+        to{-webkit-transform:translate(1800px);}
+    }
