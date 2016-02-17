@@ -12,10 +12,8 @@ nav
 #nav1
 {
   position: fixed;
-
-  border:solid blue 1px;
-  background-color:rgba(100,100,255,.95);
-  text-align:center;
+  background-color: rgba(153, 187, 255, 0.9);
+  text-align: center;
   height:80px;
 }
 
@@ -28,12 +26,10 @@ footer
 {
   border-radius: 25px;
   background-color:rgba(255, 255, 255,.95); 
-  width: 1000px;
-  height: 1000px;
+  
   padding:25px;
   position:relative; 
-  top:-60px; 
-  left:35px; 
+  
   z-index:3s;
   
   box-shadow: 20px 10px 15px rgba(0, 0, 0,.5);
@@ -43,12 +39,10 @@ footer
 {
   border-radius: 25px;
   background-color:rgba(255, 255, 255,.95); 
-  width: 1000px;
-  height: 500px;
+  
   padding:25px;
   position:relative; 
-  top:-60px; 
-  left:35px; 
+  
   z-index:3s;
   box-shadow: 20px 10px 15px rgba(0, 0, 0,.5);
 }
@@ -127,7 +121,7 @@ footer
 
 body
 {
-  background: url(../img/skybg2.png);
+  background: url(../img/stars3.png);
 }
 
 
