@@ -33,6 +33,8 @@ footer
   z-index:3s;
   
   box-shadow: 20px 10px 15px rgba(0, 0, 0,.5);
+
+  
 }
 
 .sec1
@@ -47,6 +49,24 @@ footer
   box-shadow: 20px 10px 15px rgba(0, 0, 0,.5);
 }
 
+.sec2.animate
+{
+  
+}
+
+.sec3.animate
+{
+  
+}
+
+.animate {
+ -webkit-animation: fadeAndScale 3.0s ease-in;
+}
+
+#work
+{
+  margin:10px;
+}
 .empty
 {
   width: 300px;
@@ -126,11 +146,24 @@ body
 
 
 @-webkit-keyframes drift
-    {
-        from{-webkit-transform:translateX(-255px);}
-        to{-webkit-transform:translate(1800px);}
-    }
+{
+  from{-webkit-transform:translateX(-255px);}
+  to{-webkit-transform:translate(1800px);}
+}
 
-    /* 8 bit boxes */
+@-webkit-keyframes fadeAndScale
+{
+  from
+  {
+    opacity: 0;
+    
+  }
+
+  to
+  {
+    opacity: 1;
+
+  }
+}
 
    
