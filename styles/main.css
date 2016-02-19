@@ -144,13 +144,14 @@ body
   background: url(../img/stars3.png);
 }
 
+/*
 
 @-webkit-keyframes drift
 {
   from{-webkit-transform:translateX(-255px);}
   to{-webkit-transform:translate(1800px);}
 }
-
+*/
 @-webkit-keyframes fadeAndScale
 {
   from
