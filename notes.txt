@@ -1,0 +1,2 @@
+for skills have list of skills slide and fade in from off screen as scroll moves down
+class sec fades in ass the skills come in
