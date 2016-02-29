@@ -12,6 +12,9 @@
     <link rel="stylesheet" type="text/css" href="styles/main.css">
   </head>
   <body>
+  <header>
+    
+  </header>
   <!--
       <nav class="navbar navbar-fixed-top" role="navigation" id="nav1">
         <div class="container">
@@ -59,9 +62,9 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle = "dropdown">Portfolio<b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="#portfolio" class="btn">Ruby on Rails</a></li>
-              <li><a href="#portfolio" class="btn">Angular & Node JS</a></li>
-              <li><a href="#portfolio" class="btn">Css Animation</a></li>
+              <li><a href="#portfolio" class="btn">Web Development</a></li>
+              <li><a href="#portfolio" class="btn">Multi-Media</a></li>
+              <li><a href="#portfolio" class="btn">Software Development</a></li>
             </ul>
           </li>
 
@@ -117,10 +120,51 @@
               <h1>Technical Skills</h1>
               <ul>
                         Experience
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>C#</li>
+               
+                <li class="sk one"><img src="img/html5.png">
+                  <div class="hbar"></div>
+                  <div class="hbar"></div>
+                  <div class="hbar"></div>
+                  <div class="hbar"></div>
+                  <div class="hbar"></div>
+                  <div class="hbar"></div>
+                  <div class="hbar"></div>
+                  <div class="hbar"></div>
+                </li>
+
+                <li class="sk two"><img src="img/css3.png">
+                   <div class="cbar"></div>
+                   <div class="cbar"></div>
+                   <div class="cbar"></div>
+                   <div class="cbar"></div>
+                   <div class="cbar"></div>
+                   <div class="cbar"></div>
+                   <div class="cbar"></div>
+                   <div class="cbar"></div>
+                </li>
+
+                <li class="sk three"><img src="img/photoShop.png">
+                   <div class="pbar"></div>
+                   <div class="pbar"></div>
+                   <div class="pbar"></div>
+                   <div class="pbar"></div>
+                   <div class="pbar"></div>
+                   <div class="pbar"></div>
+                </li>
+
+                <li class="sk four"><img src="img/illustrator2.png">
+                   <div class="ibar"></div>
+                   <div class="ibar"></div>
+                   <div class="ibar"></div>
+                   <div class="ibar"></div>
+                   <div class="ibar"></div>
+                   <div class="ibar"></div>
+                   <div class="ibar"></div>
+                </li>
+
+                <li class="sk five"><img src="img/unity3d.png">
+                   <div class="ubar"></div>
+                </li>
               </ul>
             </div>
 
@@ -135,13 +179,35 @@
               <a href="https://my-bloccit-app.herokuapp.com/" id="work"><img src="img/bloccit.png"></a>
             </div>
           <!-- portfolio end-->
+
+          <!-- hobbies -->
+            <a name="hobbies">
+              <div class="empty"></div>
+            </a> <br><br>
+
+            <div class=" sec1">
+              <h1>Hobbies</h1>
+              
+            </div>
+          <!-- hobbies end-->
           
 
         </div>
     </div>
-
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+      window.jQuery || document.write('<script src="js/jquery-1.12.1.min.js"><\/script>' )
+    </script>
     <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
+    <script>
+      'use strict';
+      $(document).ready(function()
+      {
+        console.log('Message batman');
+      });
+    </script>
   </body>
 </html>
 
