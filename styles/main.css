@@ -140,12 +140,13 @@ body
 {
   background: url(../img/stars3.png);
 }
-
+/*
 .sec:hover, .sec1:hover
 {
   background-color: rgba(64, 64, 64, 0.8);
   color: white;
 }
+*/
   /*
   @-webkit-keyframes drift
   {
@@ -163,41 +164,45 @@ body
 .animate 
 {
   -webkit-animation: fadeIn 1s ease-in-out; 
-  transition: 2s ease-in-out;
-  -moz-transition: 2s ease-in-out;
-  -webkit-transition: 2s ease-in-out;
+  transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
 }
 
 .animate2 
 {
   -webkit-animation: fadeIn 1s ease-in-out;
-  transition: 2s ease-in-out;
-  -moz-transition: 2s ease-in-out;
-  -webkit-transition: 2s ease-in-out;
+  transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  transition-delay: 0.25s;
 }
 
 .animate3 
 {
   -webkit-animation: fadeIn 1s ease-in-out; 
-  transition: 2s ease-in-out;
-  -moz-transition: 2s ease-in-out;
-  -webkit-transition: 2s ease-in-out;
+  transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  transition-delay: 0.40s;
 }
 
 .animate4 
 {
   -webkit-animation: fadeIn 1s ease-in-out;  
-  transition: 2s ease-in-out;
-  -moz-transition: 2s ease-in-out;
-  -webkit-transition: 2s ease-in-out;
+  transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  transition-delay: 0.55s;
 }
 
 .animate5 
 {
   -webkit-animation: fadeIn 1s ease-in-out;  
-  transition: 2s ease-in-out;
-  -moz-transition: 2s ease-in-out;
-  -webkit-transition: 2s ease-in-out;
+  transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  transition-delay: 0.70s;
 }
 
 .sk > img
@@ -206,7 +211,7 @@ body
   margin:5px;
 }
 
-.one > img
+.skimg > img
 {
   width: 35%;
   margin:5px;
@@ -217,54 +222,63 @@ body
   height: 60px;
   background-color: rgb(255, 92, 51);
   display:inline-block;
-  margin-top: 20px;
-  margin-left: 30px;
+  margin-top: 15px;
+  margin-left: 10px;
   border-radius: 5px;
   text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0,.5);
 }
 
-li > .cbar
+.cbar
 {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background-color: rgb(0, 136, 204);
   display:inline-block;
-  margin-left: 5px;
+  margin-top: 15px;
+  margin-left: 10px;
   border-radius: 5px;
   text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0,.5);
 }
 
-li > .pbar
+.pbar
 {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background-color: rgb(26, 117, 255);
   display:inline-block;
-  margin-left: 5px;
+  margin-top: 15px;
+  margin-left: 10px;
   border-radius: 5px;
   text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0,.5);
 }
 
-li > .ibar
+.ibar
 {
-  width: 50px;
-  height: 50px;
-  background-color: rgb(26, 117, 255);
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 133, 51);
   display:inline-block;
-  margin-left: 5px;
+  margin-top: 15px;
+  margin-left: 10px;
   border-radius: 5px;
   text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0,.5);
 }
-li > .ubar
+ .ubar
 {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background-color: white;
   display:inline-block;
-  margin-left: 5px;
+  margin-top: 15px;
+  margin-left: 10px;
   border-radius: 5px;
   border: solid black;
   text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0,.5);
 }
 
 li
@@ -275,6 +289,15 @@ li
 .test1
 {
   display:inline-block;
+}
+
+.size
+{
+  -webkit-animation: grow 1s 0.90s ease-in-out;  
+  transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  
 }
 
 @-webkit-keyframes fadeIn
@@ -291,5 +314,36 @@ li
 
   }
 }
+@-webkit-keyframes grow
+{
+  0%
+  {
+    -ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Safari */
+    transform: scale(0.5,0.5);
+    opacity: 0;
+    
+  }
+
+  50%
+  {
+    -ms-transform: scale(1.25,1.25); /* IE 9 */
+    -webkit-transform: scale(1.25,1.25); /* Safari */
+    transform: scale(1.25,1.25);
+    opacity: 1;
+
+  }
+
+  100%
+  {
+    -ms-transform: scale(1,1); /* IE 9 */
+    -webkit-transform: scale(1,1); /* Safari */
+    transform: scale(1,1);
+    
+  }
+
+  
+}
+
 
    

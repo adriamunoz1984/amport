@@ -10,6 +10,19 @@ $(document).ready(function()
       $('.three').addClass('animate3');
       $('.four').addClass('animate4');
       $('.five').addClass('animate5');
+
+      var ele = document.getElementById('.square1');
+      console.log(ele);
+
+      $('.hbar').each(function(item)
+        {
+          if(item>=0)
+          {
+            $(this).delay(3000).addClass('size');
+          }
+        });
+     
+      
     }
   });
 
