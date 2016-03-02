@@ -11,18 +11,14 @@ $(document).ready(function()
       $('.four').addClass('animate4');
       $('.five').addClass('animate5');
 
-      var ele = document.getElementById('.square1');
-      console.log(ele);
-
-      $('.hbar').each(function(item)
+      var ele = document.getElementsByClassName('hbar');
+      if(ele.length > 0)
+      {
+        for(var i=0; i < ele.length;i++)
         {
-          if(item>=0)
-          {
-            $(this).delay(3000).addClass('size');
-          }
-        });
-     
-      
+          $(ele[i]).addClass('size');
+        }
+      }
     }
   });
 
@@ -32,6 +28,6 @@ $(document).ready(function()
     var number = -(top/4);
     number = 'center '+number+'px';
 
-    $('.alien').css('background-position', number);
+    $('header').css('background-position', number);
   });
 });
