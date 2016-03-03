@@ -12,6 +12,7 @@ $(document).ready(function()
       $('.five').addClass('animate5');
 
       var ele = document.getElementsByClassName('hbar');
+      /*
       if(ele.length > 0)
       {
         for(var i=0; i < ele.length;i++)
@@ -19,6 +20,15 @@ $(document).ready(function()
           $(ele[i]).addClass('size');
         }
       }
+      */
+
+      $(function()
+      {
+        $('.hbar').hide().delay(1000).each(function(index)
+          {
+            $(this).fadeIn(5000);
+          });
+      });
     }
   });
 
