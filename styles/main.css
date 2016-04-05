@@ -106,7 +106,7 @@ footer
 
  index-z: 1;
  top: 240px;
-  /* animation syntax shorthand order: name duration timing-function delay iteration-count direction fill-mode */
+   animation syntax shorthand order: name duration timing-function delay iteration-count direction fill-mode 
 
   -webkit-animation: drift 20s linear infinite;
 }
@@ -120,48 +120,48 @@ footer
 
    index-z: 1;
    top: 1100px;
-    /* animation syntax shorthand order: name duration timing-function delay iteration-count direction fill-mode */
+     animation syntax shorthand order: name duration timing-function delay iteration-count direction fill-mode 
 
-     /*-webkit-animation: drift 30s linear infinite;*/
+     -webkit-animation: drift 30s linear infinite;
 }
 
 .fcloud1
 {
   index-z: 1;
-  top:3200px;
-  /* animation syntax shorthand order: name duration timing-function delay iteration-count direction fill-mode */
+  top:2500px;
+   animation syntax shorthand order: name duration timing-function delay iteration-count direction fill-mode 
 
-  /*-webkit-animation: drift 20s linear infinite;*/
+  -webkit-animation: drift 20s linear infinite;
 }
 
 .fcloud2
 {
   index-z: 2;
-  top:2760px;
+  top:2000px;
  
-  /* animation syntax shorthand order: name duration timing-function delay iteration-count direction fill-mode */
+   animation syntax shorthand order: name duration timing-function delay iteration-count direction fill-mode
 
-   /*-webkit-animation: drift 25s linear 2s infinite backwards;*/
+   -webkit-animation: drift 25s linear 2s infinite backwards;
 }
 
 body
 {
   background: url(../img/stars3.png);
 }
-/*
+
 .sec:hover, .sec1:hover
 {
   background-color: rgba(64, 64, 64, 0.8);
   color: white;
 }
-*/
-  /*
+
+  
   @-webkit-keyframes drift
   {
     from{-webkit-transform:translateX(-255px);}
     to{-webkit-transform:translate(1800px);}
   }
-  */
+  
 .one.animate, .two.animate2, .three.animate3, .four.animate4, .five.animate5
 {
   position: relative;

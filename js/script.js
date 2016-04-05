@@ -12,13 +12,14 @@ $(document).ready(function()
       $('.five').addClass('animate5');
 
       var ele = document.getElementsByClassName('hbar');
-      if(ele.length > 0)
-      {
-        for(var i=0; i < ele.length;i++)
+      
+
+      
+
+       function stopAnim()
         {
-          $(ele[i]).addClass('size');
+          clearInterval(timeout);
         }
-      }
     }
   });
 
