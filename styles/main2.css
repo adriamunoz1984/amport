@@ -1,0 +1,82 @@
+*
+{
+  margin:0;
+  padding: 0;
+  border:0;
+}
+
+h1
+{
+  text-align: center;
+  font-size: 575%;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1%;
+}
+
+h2
+{
+  text-align: center;
+  font-size: 275%;
+  color: #E5E5E5;
+  text-transform: uppercase;
+  letter-spacing: 1%;
+}
+
+.sec-inner p
+{
+  text-align: center;
+  color: white;
+}
+
+.sec-outer h1, p
+{
+  text-align: center;
+  color: black;
+
+}
+
+p
+{
+}
+.thumb
+{
+  margin:10px;
+  width: 200px;
+  -webkit-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.thumb:hover
+{
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+td
+{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1%;
+ 
+}
+/* Start Parralax effect*/
+.parallax
+{
+  background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed;
+}
+
+.parallax-inner
+{
+  padding: 10% 10%;
+}
+
+.parallax-outer
+{
+  padding: 10% 10%;
+
+}
+/* End Parralax effect*/
