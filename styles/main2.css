@@ -25,19 +25,20 @@ h2
 
 .sec-inner p
 {
-  text-align: center;
+  
   color: white;
 }
 
 .sec-outer h1, p
 {
-  text-align: center;
+  
   color: black;
 
 }
 
 p
 {
+  font-size: 200%;
 }
 .thumb
 {
