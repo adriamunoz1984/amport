@@ -3,6 +3,7 @@
   margin:0;
   padding: 0;
   border:0;
+
 }
 
 h1
@@ -12,20 +13,35 @@ h1
   color: white;
   text-transform: uppercase;
   letter-spacing: 1%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 h2
 {
   text-align: center;
   font-size: 275%;
- 
+  font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1%;
 }
-
+p, ul, li
+{
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
 .sec-inner p
 {
-  
+  font-size: 200%;
+  text-align: center;
+  color: white;
+}
+
+.sec-outer p
+{
+  font-size: 200%;
+}
+ul, li
+{
   color: white;
 }
 
@@ -40,11 +56,7 @@ h2
 {
   text-indent: 50px;
 }
-p
-{
-  
-  font-size: 200%;
-}
+
 .thumb
 {
   margin:10px;
@@ -52,6 +64,7 @@ p
   -webkit-transition: all .2s ease-in-out;
   -ms-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
+  box-shadow: 10px 10px 15px black;
 }
 
 .thumb:hover
@@ -75,35 +88,53 @@ p
   font-size: 150%;
   text-transform: uppercase;
   letter-spacing: 1%;
+  padding-right: 50px;
 }
 
+.table-skill th
+{
+
+   text-align: center;
+}
+
+.icon
+{
+  width: 75px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
 .box
 {
-  height: 60px;
-  width: 60px;
+  height: 65px;
+  width: 65px;
   border-radius: 10px;
-  background-color: orange;
+  background-color: rgba(255, 204, 153, 1);
   overflow:hidden;
   float:left;
   margin: 10px;
-  margin-right: 20px;
-  box-shadow: 5px 10px 15px;
+  margin-right: 50px;
+  box-shadow: 5px 10px 15px #d9d9d9;
 
 }
 /* Start Parralax effect*/
 .parallax
 {
   background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed;
+
 }
 
 .parallax-inner
 {
   padding: 10% 10%;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0,0.8), rgba(242, 242, 242,0)); /* For Safari 5.1 to 6.0 */
+  
+    
 }
 
 .parallax-outer
 {
   padding: 10% 10%;
+
 
 }
 /* End Parralax effect*/
