@@ -12,13 +12,22 @@ $(document).ready(function()
       $('.five').addClass('animate5');
 
       var ele = document.getElementsByClassName('hbar');
+<<<<<<< HEAD
       /*
       if(ele.length > 0)
       {
         for(var i=0; i < ele.length;i++)
+=======
+      
+
+      
+
+       function stopAnim()
+>>>>>>> b306595054a1f4c5eca39103120609c5defc42c4
         {
-          $(ele[i]).addClass('size');
+          clearInterval(timeout);
         }
+<<<<<<< HEAD
       }
       */
 
@@ -29,6 +38,8 @@ $(document).ready(function()
             $(this).fadeIn(5000);
           });
       });
+=======
+>>>>>>> b306595054a1f4c5eca39103120609c5defc42c4
     }
   });
 
