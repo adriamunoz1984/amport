@@ -32,8 +32,19 @@ p, ul, li
 .sec-inner p
 {
   font-size: 200%;
-  text-align: center;
+  
   color: white;
+}
+
+#scroll {
+  margin-top:200px;
+  margin-bottom: 200px;
+  text-align:center;
+}
+
+#cn
+{
+ z-index: 2;
 }
 
 .sec-outer p
@@ -45,6 +56,15 @@ ul, li
   color: white;
 }
 
+#scroll img 
+{
+  position:relative;
+}
+
+#welcome
+{
+  text-align: center;
+}
 .sec-outer h1, p
 {
   
@@ -88,13 +108,18 @@ ul, li
   font-size: 150%;
   text-transform: uppercase;
   letter-spacing: 1%;
-  padding-right: 50px;
+  padding-right: 10px;
 }
 
 .table-skill th
 {
 
-   text-align: center;
+ 
+}
+
+#range
+{
+  text-align: left;
 }
 
 .icon
@@ -108,11 +133,11 @@ ul, li
   height: 65px;
   width: 65px;
   border-radius: 10px;
-  background-color: rgba(255, 204, 153, 1);
+  background-color: rgb(51, 204, 255);
   overflow:hidden;
   float:left;
   margin: 10px;
-  margin-right: 50px;
+  margin-right: 12.5px;
   box-shadow: 5px 10px 15px #d9d9d9;
 
 }
