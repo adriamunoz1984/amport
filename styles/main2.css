@@ -184,6 +184,12 @@ ul, li
    
 }
 
+.growbox, h4
+{
+  text-align: center;
+  color: white;
+}
+
 .growbox.slideright:hover 
 {
     -webkit-transform: scale(1.2,1.2);
